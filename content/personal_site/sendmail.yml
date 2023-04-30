@@ -1,0 +1,38 @@
+name: send mail # 名称
+
+on: # 触发器
+  schedule:
+    - cron: "00 14 * * *" # 每天 UTC+8 22:00 
+
+jobs: # 工作流
+  build:
+    runs-on: ubuntu-latest # 运行器
+    steps: # 步骤
+    - name: checkout repo content
+      uses: actions/checkout@v2
+    - name: setup python # 设置python版本
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: install dependencies # 安装 pip 依赖
+      run: |
+        pip install -r requirement.txt
+    - name: execute py script # 执行自定义 py 脚本
+      run: |
+        python main.py -u $Username -p $Password
+      env:
+        Username: ${{ secrets.HHU_USERNAME }} # 学号
+        Password: ${{ secrets.HHU_PASSWORD }} # 密码
+    - name: send email # 发送邮件
+      uses: dawidd6/action-send-mail@v2
+      with:
+        server_address: smtp.qcloudmail.com
+        server_port: 465
+        username: ${{ secrets.MAIL_USERNAME }} # 发件邮箱
+        password: ${{ secrets.MAIL_PASSWORD }} # 发件邮箱密码
+        subject: 空闲教室情况
+        body: file://template/result.html
+        to: ${{ secrets.EMAIL }} # 目标邮箱
+        from: GitHub Actions
+        content_type: text/html
+
