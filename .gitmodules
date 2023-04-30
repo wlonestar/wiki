@@ -1,6 +1,0 @@
-[submodule "themes/reveal-hugo"]
-	path = themes/reveal-hugo
-	url = git@github.com:wlonestar/reveal-hugo.git
-[submodule "themes/hugo-blog-awesome"]
-	path = themes/hugo-blog-awesome
-	url = git@github.com:wlonestar/hugo-blog-awesome.git
