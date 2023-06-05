@@ -33,7 +33,7 @@ outputs = ["Reveal"]
 └───pom.xml
 ```
 
-![](https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2022-01-04_10-11-56.png)
+![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-01-04_10-11-56.png)
 
 ---
 
@@ -139,19 +139,19 @@ maven 打包插件中要标明程序入口类 `com.wjl.WebApplication`
 
 直接在父工程打包即可，这里使用 idea ，有些可能要先 `compile` 一下，我这个示例比较简单，直接点一下 `package` 就行了
 
-![](https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2022-01-04_10-26-58.png)
+![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-01-04_10-26-58.png)
 
 ---
 
 可以在 `web` 模块下的 `target` 目录下看到打包好的 `jar` 包
 
-![](https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2022-01-04_10-29-19.png)
+![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-01-04_10-29-19.png)
 
 ---
 
 命令行使用命令 `java -jar web-1.0.0.jar` 运行
 
-![](https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2022-01-04_10-31-13.png)
+![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-01-04_10-31-13.png)
 
 打包成功，可以顺利运行！
 

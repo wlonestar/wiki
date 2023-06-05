@@ -94,7 +94,7 @@ outputs = ["Reveal"]
 
 > [Hugo](https://gohugo.io/) 是一个用 Go 编写的快速而现代的静态网站生成器，旨在让网站创建再次变得有趣。
 
-<img alt class="center" width="250px" src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2023-04-12_08-33-51.jpg"/>
+<img alt class="center" width="250px" src="https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-12_08-33-51.jpg"/>
 
 特点：
 
@@ -312,7 +312,7 @@ git push -u origin master
 
 - 根据购买的对象存储服务设置存储区域和存储桶
 
-<img alt="" class="center" width="300px" src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2023-04-11_20-41-50.jpg">
+<img alt="" class="center" width="300px" src="https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-11_20-41-50.jpg">
 
 ---
 
@@ -324,7 +324,7 @@ git push -u origin master
 
 - 访问网站查看效果
 
-<img alt="" class="center" width="400px" src="https://mypic-1305118058.cos.ap-hongkong.myqcloud.com/img/Snipaste_2023-04-12_16-23-33.jpg"/>
+<img alt="" class="center" width="400px" src="https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-12_16-23-33.jpg"/>
 
 {{% /section %}}
 
