@@ -4,7 +4,10 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-# 个人主页搭建及部署
+<div class="center middle">
+  <h1>个人主页搭建及部署<h1>
+</div>
+
 
 <p class="center">汪佳磊 雷正阳 刘宇</p>
 
