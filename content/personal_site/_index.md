@@ -4,9 +4,18 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-# 个人主页搭建及部署
-
-汪佳磊 雷正阳 刘宇
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>
+        个人主页搭建及部署
+      </h1>
+      <center>
+      汪佳磊 雷正阳 刘宇
+      </center>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -36,7 +45,13 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-# 为什么需要个人主页/个人博客
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>为什么需要个人主页/个人博客</h1>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -86,7 +101,13 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-# 静态网站生成器
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>静态网站生成器</h1>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -162,7 +183,13 @@ my-blog/
 
 {{% section %}}
 
-# GitHub Pages 部署
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>GitHub Pages 部署</h1>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -278,7 +305,13 @@ git push -u origin master
 
 {{% section %}}
 
-# 图片的对象存储
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>图片的对象存储</h1>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -332,7 +365,13 @@ git push -u origin master
 
 {{% section %}}
 
-# 总结
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>总结</h1>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -354,6 +393,12 @@ git push -u origin master
 
 ---
 
-# End.
+<div>
+  <div class="center middle">
+    <div style="width: 100%">
+      <h1>End.</h1>
+    </div>
+  </div>
+</div>
 
 {{% /section %}}
