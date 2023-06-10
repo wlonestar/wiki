@@ -4,12 +4,9 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-<div>
-  <div class="center middle">
-    <h1>个人主页搭建及部署<h1>  
-  </div>
-  <!-- <p class="center">汪佳磊 雷正阳 刘宇</p> -->
-<div>
+# 个人主页搭建及部署
+
+汪佳磊 雷正阳 刘宇
 
 ---
 
@@ -39,12 +36,7 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-<div>
-  <div class="center middle">
-    <h1>为什么需要个人主页/个人博客<h1>  
-  </div>
-<div>
-
+# 为什么需要个人主页/个人博客
 
 ---
 
