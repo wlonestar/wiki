@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-## 相关网站
+## Related Links
 
 个人博客：[LoneStar's blog](https://blog.wangjialei.xyz/)
 
