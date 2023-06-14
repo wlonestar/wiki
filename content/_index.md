@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-## lonestar
+## wjl
 
 Undergraduate student, CS, College of Information Science and Engineering, Hohai University
 
@@ -10,9 +10,6 @@ Computer Systems
 
 Full stack
 
-## Github Contributions
-
-![](https://ghchart.rshah.org/wlonestar)
 
 ## Projects
 
@@ -26,15 +23,23 @@ Full stack
 
 ### Closed
 
-- [wlonestar/lblog](https://github.com/wlonestar/lblog): personal blog, support markdown rendering, image upload and download
+- [wlonestar/lblog](https://github.com/wlonestar/lblog): personal blog written in Java, support markdown, image upload and download
+
+
+## Github Contributions
+
+![](https://ghchart.rshah.org/wlonestar)
+
 
 ## Presentations
 
 [基于GitHub和腾讯云的个人主页搭建](slides/personal_site)
 
+
 ## Files
 
 [计算机网络](files/review.pdf)
+
 
 ## Related Links
 
@@ -43,3 +48,4 @@ personal blog：[LoneStar's blog](https://blog.wangjialei.xyz/)
 GitHub：[wlonestar](https://github.com/wlonestar)
 
 Bilibili： [-lonestar-](https://space.bilibili.com/433694656)
+
