@@ -38,7 +38,7 @@ Full stack
 
 ## Files
 
-[计算机网络](files/review.pdf)
+[计算机网络](files/network_review.pdf)
 
 
 ## Related Links
