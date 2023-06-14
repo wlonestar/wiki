@@ -43,7 +43,7 @@ Full stack
 
 ## Related Links
 
-personal blog：[LoneStar's blog](https://blog.wangjialei.xyz/)
+Personal blog：[LoneStar's blog](https://blog.wangjialei.xyz/)
 
 GitHub：[wlonestar](https://github.com/wlonestar)
 
