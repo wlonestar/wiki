@@ -18,18 +18,28 @@ enableEmoji = true
     unsafe = true
 
 [menu]
-  # [[menu.main]] 
+  [[menu.main]] 
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-  #   pageRef="/"
-  #   name = 'Home'
-  #   url = '/'
-  #   weight = 10
-  # [[menu.main]]
-  #   pageRef="posts"
-  #   name = 'Posts'
-  #   url = '/posts/'
-  #   weight = 20
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="categories"
+    name = 'Categories'
+    url = '/categories/'
+    weight = 30
+  [[menu.main]]
+    pageRef="tags"
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
   # [[menu.main]]
   #   pageRef="about"
   #   name = 'About'
