@@ -13,7 +13,7 @@ enableEmoji = true
 [markup]
   [markup.highlight]
     noClasses = false
-    codeFences = false
+    # codeFences = false
   [markup.goldmark.renderer]
     unsafe = true
 
@@ -50,6 +50,12 @@ enableEmoji = true
   sitename = "LoneStar's wiki"
   defaultColor = "light" # set default color mode: dark or light
   description = "personal wiki"
+  goToTop = true
+
+[tableOfContents]
+startLevel = 2 # ToC starts from H2
+endLevel = 4 # ToC ends at H4
+ordered = false # generates <ul> instead of <ol>
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
