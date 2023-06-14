@@ -2,17 +2,44 @@
 title: "Home"
 ---
 
-## Presentation
+## lonestar
+
+Undergraduate student, CS, College of Information Science and Engineering, Hohai University
+
+Computer Systems
+
+Full stack
+
+## Github Contributions
+
+![](https://ghchart.rshah.org/wlonestar)
+
+## Projects
+
+### 2023
+
+- [wlonestar/simple-fts](https://github.com/wlonestar/simple-fts): simple full text search application
+
+### 2022
+
+- [wlonestar/HHU_URP_auto_login](https://github.com/wlonestar/HHU_URP_auto_login): HHU URP auto login script
+
+### Closed
+
+- [wlonestar/lblog](https://github.com/wlonestar/lblog): personal blog, support markdown rendering, image upload and download
+
+## Presentations
 
 [基于GitHub和腾讯云的个人主页搭建](slides/personal_site)
 
-## File
+## Files
 
 [计算机网络](files/review.pdf)
 
 ## Related Links
 
-个人博客：[LoneStar's blog](https://blog.wangjialei.xyz/)
+personal blog：[LoneStar's blog](https://blog.wangjialei.xyz/)
 
-GitHub: [wlonestar](https://github.com/wlonestar)
+GitHub：[wlonestar](https://github.com/wlonestar)
 
+Bilibili： [-lonestar-](https://space.bilibili.com/433694656)
