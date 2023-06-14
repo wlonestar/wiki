@@ -1,8 +1,6 @@
 ---
-title: CLion+Visual Studio+CMake配置图形学开发环境
+title: "CLion+Visual Studio+CMake配置图形学开发环境"
 date: 2022-04-10T11:06:53+08:00
-description: CMake + GLFW + glad + glm
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-04-09_21-28-25.png
 categories:
   - 过程记录
 tags:

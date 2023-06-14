@@ -1,8 +1,6 @@
 ---
-title: URP教务系统自动登录
+title: "URP教务系统自动登录"
 date: 2022-09-12T21:32:36+08:00
-description: URP教务系统自动登录脚本编写过程及心得体会
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/letter.jpg
 categories:
   - 开源项目
 tags:

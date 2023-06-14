@@ -1,8 +1,6 @@
 ---
 title: "基于Easyx图形库的C语言游戏开发"
 date: 2021-02-27T18:51:40+08:00
-description: 大一C语言大作业——“simple-lol”游戏设计
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/2021-02-27.jpg
 categories:
   - 开源项目
 tags:

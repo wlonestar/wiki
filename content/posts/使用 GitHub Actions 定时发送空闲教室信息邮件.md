@@ -1,8 +1,6 @@
 ---
-title: 使用 GitHub Actions 定时发送空闲教室信息邮件
+title: "使用 GitHub Actions 定时发送空闲教室信息邮件"
 date: 2022-09-20T19:23:09+08:00
-description: 用 GitHub Actions 写一个定时任务，每天早上把当天的空闲教室信息写进邮件发给我
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/mmexport1624495514000.png
 categories: 
   - 开源项目
 tags:

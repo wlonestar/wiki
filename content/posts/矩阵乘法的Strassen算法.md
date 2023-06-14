@@ -1,8 +1,6 @@
 ---
-title: 矩阵乘法的Strassen算法
+title: "矩阵乘法的Strassen算法"
 date: 2022-08-31T19:06:45+08:00
-description: 时间复杂度O(n^2.81) (rust 语言实现)
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_202-05-01_23-05-54.jpg
 categories:
   - 学习笔记
 tags:

@@ -1,8 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: 
-image:
 categories:
   - default
 tags:
@@ -13,3 +11,12 @@ draft: false
 toc: true
 ---
 
+<!-- cover -->
+![]()
+
+<!-- main content -->
+
+
+
+<!-- end -->
+以上。

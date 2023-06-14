@@ -1,8 +1,6 @@
 ---
 title: "基于GitHub和腾讯云的个人主页搭建"
 date: 2023-04-11T16:18:56+08:00
-description: 基于 GitHub Pages 和腾讯云对象存储搭建一个高度可定制的个人主页或个人博客
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/402a493e03c54c5b97bf290f91642dd6.jpg
 categories:
   - 知识整理
 tags:
