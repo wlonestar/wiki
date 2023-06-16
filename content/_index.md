@@ -38,6 +38,8 @@ Full stack
 
 ## Files
 
+[《操作系统》书后习题答案](files/os_answer.pdf)
+
 [计算机网络复习](files/network_review.pdf)
 
 
