@@ -39,7 +39,12 @@ enableEmoji = true
     pageRef="tags"
     name = 'Tags'
     url = '/tags/'
-    weight = 20
+    weight = 40
+  [[menu.main]]
+    pageRef="notes"
+    name = 'Notes'
+    url = '/notes/'
+    weight = 50
   # [[menu.main]]
   #   pageRef="about"
   #   name = 'About'
