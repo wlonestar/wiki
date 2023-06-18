@@ -1,22 +1,19 @@
 ---
 title: "Vscode搭建c++开发环境"
 date: 2021-03-03T21:41:07+08:00
+categories:
+  - 过程记录
+tags:
+  - VSCode
+  - C++
+math: true
+hidden: false
 draft: false
 toc: true
-description: vscde 搭建 c++ 开发环境
-categories:
-- 过程记录
-tags:
-- VSCode
-- C++
-image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/2021-03-03.jpg
 ---
 
 
-
 ## 配置编译器 [mingw-w64](http://mingw-w64.org/doku.php/start)
-
-
 
 ### 下载安装
 
@@ -146,4 +143,3 @@ int main()
 ![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/image-20210303222515011.png)
 
 就可以在当前目录下愉快地用 `vscode` 写 `C++` 了！
-
