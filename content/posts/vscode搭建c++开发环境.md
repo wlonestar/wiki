@@ -1,5 +1,5 @@
 ---
-title: "Vscode搭建c++开发环境"
+title: "VSCode搭建c++开发环境"
 date: 2021-03-03T21:41:07+08:00
 categories:
   - 过程记录
@@ -13,7 +13,9 @@ toc: true
 ---
 
 
-## 配置编译器 [mingw-w64](http://mingw-w64.org/doku.php/start)
+## 配置编译器 mingw-w64
+
+[mingw-w64](http://mingw-w64.org/doku.php/start)
 
 ### 下载安装
 
@@ -53,7 +55,7 @@ toc: true
 
 打开终端，输入
 
-```shell
+```bash
 g++ --version
 gdb --version
 ```
@@ -62,7 +64,9 @@ gdb --version
 
 出现版本号则配置成功
 
-## 安装 [Vscode](https://code.visualstudio.com/docs/?dv=win) 编辑器
+## 安装 VSCode
+
+[VSCode](https://code.visualstudio.com/docs/?dv=win) 编辑器
 
 正常安装，注意一定要添加到系统 `PATH` 中
 
