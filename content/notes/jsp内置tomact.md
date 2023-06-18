@@ -11,25 +11,7 @@ toc: true
 
 ### JDK
 
-下载链接： [open-jdk-17](https://jdk.java.net/17/)
-
-1. 下载压缩包解压到合适路径
-
-![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-03-22_19-47-22.png)
-
-2. 添加到环境变量
-
-在系统变量新建变量 `JAVA_HOME`
-
-![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-03-22_19-48-38.png)
-
-在系统变量 `PATH` 里添加 `%JAVA_HOME%/bin`
-
-3. 验证安装
-
-打开 terminal ，输入命令 `java --version`
-
-![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-03-22_19-52-17.png)
+略过
 
 ### Maven
 
@@ -38,7 +20,6 @@ toc: true
 1. 下载压缩包解压到合适路径
 
 ![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-03-22_19-56-53.png)
-
 
 2. 添加到环境变量
 
@@ -65,7 +46,6 @@ toc: true
 ```
 
 ![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-03-22_20-04-23.png)
-
 
 修改镜像为阿里云：
 
