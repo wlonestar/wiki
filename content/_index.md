@@ -47,7 +47,3 @@ Full stack
 
 Personal blog：[LoneStar's blog](https://blog.wangjialei.xyz/)
 
-GitHub：[wlonestar](https://github.com/wlonestar)
-
-Bilibili： [-lonestar-](https://space.bilibili.com/433694656)
-

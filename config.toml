@@ -69,9 +69,17 @@ ordered = false # generates <ul> instead of <ol>
   name = "LoneStar"
   description = ""
 
-# [[params.socialIcons]]
-# name = "github"
-# url = "https://github.com/wlonestar"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/wlonestar"
+
+[[params.socialIcons]]
+name = "bilibili"
+url = "https://space.bilibili.com/433694656"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"
 
 [outputFormats.Reveal]
 baseName = "index"
