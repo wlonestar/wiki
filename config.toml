@@ -3,10 +3,7 @@ baseURL = 'https://wangjailei.xyz/'
 languageCode = 'zh-cn'
 theme = ["hugo-blog-awesome", "reveal-hugo"]
 defaultContentLanguage = "zh-cn"
-# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
-# To disable  Google Analytics, simply leave the field empty or remove the next line
 googleAnalytics = '' # G-MEASUREMENT_ID
-# Enable emojis globally
 enableEmoji = true
 
 # set markup.highlight.noClasses=false to enable code highlight
@@ -19,8 +16,6 @@ enableEmoji = true
 
 [menu]
   [[menu.main]] 
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Home'
     url = '/'
@@ -45,11 +40,6 @@ enableEmoji = true
     name = 'Notes'
     url = '/notes/'
     weight = 50
-  # [[menu.main]]
-  #   pageRef="about"
-  #   name = 'About'
-  #   url = '/about/'
-  #   weight = 40
 
 [params]
   sitename = "LoneStar's wiki"

@@ -26,7 +26,7 @@ Full stack
 - [wlonestar/lblog](https://github.com/wlonestar/lblog): personal blog written in Java, support markdown
 
 
-## Github Contributions
+## Contributions
 
 ![](https://ghchart.rshah.org/wlonestar)
 
@@ -46,8 +46,4 @@ Full stack
 
 [计算机网络复习](files/network_review.pdf)
 
-
-## Related Links
-
-<!-- Personal blog：[LoneStar's blog](https://blog.wangjialei.xyz/) -->
 
