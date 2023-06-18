@@ -42,6 +42,8 @@ Full stack
 
 [软件工程复习](files/se_review.pdf)
 
+[数据库系统原理复习](files/db_review.pdf)
+
 [计算机网络复习](files/network_review.pdf)
 
 
