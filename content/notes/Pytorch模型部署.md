@@ -1,5 +1,5 @@
 ---
-title: "Pytorch 模型部署"
+title: "Pytorch模型部署"
 date: 2022-03-10T16:54:04+08:00
 math: true
 hidden: false

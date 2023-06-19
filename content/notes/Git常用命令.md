@@ -1,5 +1,5 @@
 ---
-title: "git常用命令"
+title: "Git常用命令"
 date: 2021-02-26T13:06:46+08:00
 math: true
 hidden: false
