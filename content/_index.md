@@ -38,12 +38,12 @@ Full stack
 
 ## Files
 
-[《操作系统》书后习题答案](files/os_answer.pdf)
+[《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf)
 
-[软件工程复习](files/se_review.pdf)
+[软件工程复习](https://wangjialei.xyz/files/pdf/se_review.pdf)
 
-[数据库系统原理复习](files/db_review.pdf)
+[数据库系统原理复习](https://wangjialei.xyz/files/pdf/db_review.pdf)
 
-[计算机网络复习](files/network_review.pdf)
+[计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf)
 
 
