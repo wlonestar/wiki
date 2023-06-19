@@ -46,7 +46,7 @@ add_executable(opengl_project main.cpp)
 
 将头文件和库文件添加到项目目录下
 
-```shell
+```bash
 ├─cmake-build-debug
 ├─include
 │  ├─glad
@@ -67,10 +67,7 @@ add_executable(opengl_project main.cpp)
 include_directories(include)
 link_directories(lib)
 # link option
-set(option
-        glfw3
-        opengl32
-)
+set(option glfw3 opengl32)
 ```
 
 ## 示例程序
@@ -81,13 +78,13 @@ set(option
 
 ```cpp
 // hello_triangle.cpp
+
 //
 // Created by wjl15 on 2022/4/9.
 //
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 #include <iostream>
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
@@ -168,9 +165,9 @@ int main() {
   glDeleteShader(fragment_shader);
 
   float vertices[] = {
-      -0.5f, -0.5f, 0.0f,
-      0.5f, -0.5f, 0.0f,
-      0.0f, 0.5f, 0.0f
+    -0.5f, -0.5f, 0.0f,
+     0.5f, -0.5f, 0.0f,
+     0.0f,  0.5f, 0.0f
   };
 
   unsigned int vbo, vao;
@@ -225,7 +222,7 @@ target_link_libraries(hello_triangle ${option})
 
 #### 添加 GLSL 插件
 
-写着色器就有代码高亮了
+写着色器代码就有高亮了
 
 ![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-04-10_14-19-47.png)
 
@@ -235,6 +232,7 @@ target_link_libraries(hello_triangle ${option})
 
 ```h
 // shader.h
+
 //
 // Created by wjl15 on 2022/4/9.
 //
@@ -244,7 +242,6 @@ target_link_libraries(hello_triangle ${option})
 
 #include <glad/glad.h>
 #include <glm/glm.hpp>
-
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -266,13 +263,10 @@ public:
 
   void set_vec2(const std::string &name, const glm::vec2 &value) const;
   void set_vec2(const std::string &name, float x, float y) const;
-
   void set_vec3(const std::string &name, const glm::vec3 &value) const;
   void set_vec3(const std::string &name, float x, float y, float z) const;
-
   void set_vec4(const std::string &name, const glm::vec4 &value) const;
   void set_vec4(const std::string &name, float x, float y, float z, float w) const;
-
   void set_mat2(const std::string &name, const glm::mat2 &mat) const;
   void set_mat3(const std::string &name, const glm::mat3 &mat) const;
   void set_mat4(const std::string &name, const glm::mat4 &mat) const;
@@ -420,14 +414,13 @@ void shader::set_mat4(const std::string &name, const glm::mat4 &mat) const {
 }
 
 #endif//OPENGL_PROJECT_SHADER_H
-
 ```
 
 #### 添加 `shader` 目录
 
 统一存放着色器文件
 
-```shell
+```bash
 ├─cmake-build-debug
 ├─include
 │  ├─glad
@@ -459,6 +452,7 @@ void main() {
     ourColor = aColor;
 }
 ///////////////////////////////////////
+
 // 3-3.frag
 #version 330 core
 
@@ -475,16 +469,15 @@ void main() {
 
 ```cpp
 // shader_class.cpp
+
 //
 // Created by wjl15 on 2022/4/9.
 //
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
-#include "shader.h"
-
 #include <iostream>
+#include "shader.h"
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width, height);
@@ -522,9 +515,9 @@ int main() {
   shader our_shader("shader/3-3.vert", "shader/3-3.frag");
 
   float vertices[] = {
-      0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,
-      -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f,
-      0.0f, 0.5f, 0.0f, 0.0f, 0.0f, 1.0f
+     0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,
+    -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f,
+     0.0f, 0.5f, 0.0f, 0.0f, 0.0f, 1.0f
   };
 
   unsigned int vbo, vao;
@@ -566,9 +559,8 @@ int main() {
 ```cmake
 add_executable(shader_class shader_class.cpp glad.c)
 target_link_libraries(shader_class ${option})
-file(COPY
-        ${CMAKE_CURRENT_SOURCE_DIR}/shader
-        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/shader 
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 ```
 
 运行结果
@@ -583,7 +575,7 @@ file(COPY
 
 统一存放 图片文件
 
-```shell
+```bash
 ├─cmake-build-debug
 ├─include
 │  ├─glad
@@ -622,7 +614,9 @@ void main() {
     ourColor = aColor;
     TexCoord = vec2(aTexCoord.x, aTexCoord.y);
 }
+
 ///////////////////////////////////////
+
 // 4-2.frag
 #version 330 core
 
@@ -643,6 +637,7 @@ void main() {
 
 ```cpp
 // textures_combined.cpp
+
 //
 // Created by wjl15 on 2022/4/9.
 //
@@ -651,10 +646,8 @@ void main() {
 #include <GLFW/glfw3.h>
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
-
-#include "shader.h"
-
 #include <iostream>
+#include "shader.h"
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width, height);
@@ -692,15 +685,15 @@ int main() {
   shader our_shader("shader/4-2.vert", "shader/4-2.frag");
 
   float vertices[] = {
-      0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-      0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f,
-      -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-      -0.5f, 0.5f, 0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f
+     0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
+     0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f,
+    -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
+    -0.5f, 0.5f, 0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f
   };
 
   unsigned int indices[] = {
-      0, 1, 3,
-      1, 2, 3
+    0, 1, 3,
+    1, 2, 3
   };
 
   unsigned int vbo, vao, ebo;
@@ -712,16 +705,13 @@ int main() {
 
   glBindBuffer(GL_ARRAY_BUFFER, vbo);
   glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo);
   glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
   glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
   glEnableVertexAttribArray(0);
-
   glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
   glEnableVertexAttribArray(1);
-
   glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
   glEnableVertexAttribArray(2);
 
@@ -799,10 +789,9 @@ int main() {
 ```cmake
 add_executable(textures_combined textures_combined.cpp glad.c)
 target_link_libraries(textures_combined ${option})
-file(COPY
-        ${CMAKE_CURRENT_SOURCE_DIR}/shader
-        ${CMAKE_CURRENT_SOURCE_DIR}/image
-        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/shader
+          ${CMAKE_CURRENT_SOURCE_DIR}/image
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 ```
 
 运行结果
@@ -819,6 +808,7 @@ file(COPY
 
 ```h
 // camera.h
+
 //
 // Created by wjl15 on 2022/4/9.
 //
@@ -829,7 +819,6 @@ file(COPY
 #include <glad/glad.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-
 #include <vector>
 
 enum camera_movement {
@@ -920,19 +909,19 @@ void camera::process_keyboard(camera_movement direction, float delta_time) {
 }
 
 void camera::process_mouse_movement(float x_offset, float y_offset, GLboolean constrain_pitch) {
-    x_offset *= mouse_sensitivity;
-    y_offset *= mouse_sensitivity;
-    yaw += x_offset;
-    pitch += y_offset;
-    if (constrain_pitch) {
-      if (pitch > 89.0f) {
-        pitch = 89.0f;
-      }
-      if (pitch < -89.0f) {
-        pitch = -89.0f;
-      }
+  x_offset *= mouse_sensitivity;
+  y_offset *= mouse_sensitivity;
+  yaw += x_offset;
+  pitch += y_offset;
+  if (constrain_pitch) {
+    if (pitch > 89.0f) {
+      pitch = 89.0f;
     }
-    update_camera_vectors();
+    if (pitch < -89.0f) {
+      pitch = -89.0f;
+    }
+  }
+  update_camera_vectors();
 }
 
 void camera::process_mouse_scroll(float y_offset) {
@@ -969,7 +958,9 @@ void main() {
     gl_Position = projection * view * model * vec4(aPos, 1.0f);
     TexCoord = vec2(aTexCoord.x, aTexCoord.y);
 }
+
 ///////////////////////////////////////
+
 // 7-1.frag
 #version 330 core
 
@@ -989,6 +980,7 @@ void main() {
 
 ```cpp
 // camera_class.cpp
+
 //
 // Created by wjl15 on 2022/4/9.
 //
@@ -997,15 +989,12 @@ void main() {
 #include <GLFW/glfw3.h>
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
-
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
+#include <iostream>
 #include "shader.h"
 #include "camera.h"
-
-#include <iostream>
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void mouse_callback(GLFWwindow *window, double x_pos_in, double y_pos_in);
@@ -1052,60 +1041,60 @@ int main() {
   shader our_shader("shader/7-1.vert", "shader/7-1.frag");
 
   float vertices[] = {
-      -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-      0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-      0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-      0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-      -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-      -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
 
-      -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-      0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-      0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-      0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-      -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-      -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
 
-      -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-      -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-      -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-      -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-      -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-      -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
 
-      0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-      0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-      0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-      0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-      0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-      0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
 
-      -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-      0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
-      0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-      0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-      -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-      -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
 
-      -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-      0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-      0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-      0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-      -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-      -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
   };
 
   glm::vec3 cubePositions[] = {
-      glm::vec3(0.0f,  0.0f,  0.0f),
-      glm::vec3(2.0f,  5.0f, -15.0f),
-      glm::vec3(-1.5f, -2.2f, -2.5f),
-      glm::vec3(-3.8f, -2.0f, -12.3f),
-      glm::vec3(2.4f, -0.4f, -3.5f),
-      glm::vec3(-1.7f,  3.0f, -7.5f),
-      glm::vec3(1.3f, -2.0f, -2.5f),
-      glm::vec3(1.5f,  2.0f, -2.5f),
-      glm::vec3(1.5f,  0.2f, -1.5f),
-      glm::vec3(-1.3f,  1.0f, -1.5f)
+    glm::vec3(0.0f,  0.0f,  0.0f),
+    glm::vec3(2.0f,  5.0f, -15.0f),
+    glm::vec3(-1.5f, -2.2f, -2.5f),
+    glm::vec3(-3.8f, -2.0f, -12.3f),
+    glm::vec3(2.4f, -0.4f, -3.5f),
+    glm::vec3(-1.7f,  3.0f, -7.5f),
+    glm::vec3(1.3f, -2.0f, -2.5f),
+    glm::vec3(1.5f,  2.0f, -2.5f),
+    glm::vec3(1.5f,  0.2f, -1.5f),
+    glm::vec3(-1.3f,  1.0f, -1.5f)
   };
 
   unsigned int vbo, vao;
@@ -1214,19 +1203,15 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
 void mouse_callback(GLFWwindow *window, double x_pos_in, double y_pos_in) {
   float x_pos = static_cast<float>(x_pos_in);
   float y_pos = static_cast<float>(y_pos_in);
-
   if (first_mouse) {
     last_x = x_pos;
     last_y = y_pos;
     first_mouse = false;
   }
-
   float x_offset = x_pos - last_x;
   float y_offset = last_y - y_pos;
-
   last_x = x_pos;
   last_y = y_pos;
-
   camera.process_mouse_movement(x_offset, y_offset);
 }
 
@@ -1258,10 +1243,9 @@ void process_input(GLFWwindow *window) {
 ```cmake
 add_executable(camera_class camera_class.cpp glad.c)
 target_link_libraries(camera_class ${option})
-file(COPY
-        ${CMAKE_CURRENT_SOURCE_DIR}/shader
-        ${CMAKE_CURRENT_SOURCE_DIR}/image
-        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/shader
+          ${CMAKE_CURRENT_SOURCE_DIR}/image
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 ```
 
 运行结果
