@@ -11,16 +11,9 @@ draft: false
 toc: true
 ---
 
+项目地址（已关闭） wlonestar/simple-lol
 
-
-项目地址  [wlonestar/simple-lol](https://github.com/wlonestar/simple-lol)
-
-游戏演示视频已上传B站  [BV1Cy4y127Th](https://www.bilibili.com/video/BV1Cy4y127Th)
-
-
-
-
-
+游戏演示视频已上传B站 [BV1Cy4y127Th](https://www.bilibili.com/video/BV1Cy4y127Th)
 
 ## 设计思路
 

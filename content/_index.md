@@ -25,7 +25,7 @@ Full stack
 
 ### Closed
 
-- [wlonestar/lblog](https://github.com/wlonestar/lblog): personal blog written in Java, support markdown
+- wlonestar/lblog: personal blog written in Java, support markdown
 
 
 ## Contributions
