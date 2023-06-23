@@ -10,11 +10,11 @@ toc: true
 ## 配置 git
 
 ```bash
-# 查看版本号，一般用来验证是否配置成功
+# check if installed
 git --version
 # 配置
-ssh-keygen -t rsa -b 4096 -C "你的邮箱"
-# 获取公钥
+ssh-keygen -t rsa -b 4096 -C "email"
+# get the public key
 cat ~/.ssh/id_rsa.pub
 ```
 
@@ -37,18 +37,18 @@ git config --global user.email {email}
 输入命令：
 
 ```bash
-mkdir <项目名称>
-cd <项目名称>   #进入目录
-git init       #初始仓库，新建一个 .git 目录
-ls -al         #查看所有文件
-touch <file1>  #创建一个文件
-mkdir <dir1>   #新建一个目录
+mkdir <repo>
+cd <repo>    # enter dir
+git init     # init repo
+ls -al       # check all files
+touch <file> # create a file 
+mkdir <dir>  # create a dir
 ```
 
 现在可以修改文件内容
 
 ```bash
-git status -sb      #文件前面有 ?? 号
+git status          # check status      
 git add .           #一次性将文件添加到暂存区
 git status -sb      #现在文件前面 ?? 变成了 A
 git commit -m "xx"  #将你 add 过的内容正式提交到本地仓库，并添加注释
@@ -68,7 +68,7 @@ git commit -m "xx"
 新建一个空仓库，名称与本地目录名一致
 
 ```bash
-git remote add origin git@github.com:xxxx/<仓库名>
+git remote add origin git@github.com:xxxx/<repo>
 git push -u origin master
 ```
 
