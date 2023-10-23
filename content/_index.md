@@ -40,6 +40,16 @@ Full stack
 
 ## Files
 
+### PV操作
+
+[thread.h](https://wangjialei.xyz/files/code/thread.h)(copy from jyy)
+
+[thread-sync.h](https://wangjialei.xyz/files/code/thread-sync.h)(copy from jyy)
+
+[rw_strengthen.c](https://wangjialei.xyz/files/code/rw_strengthen.c)
+
+[rw_strengthen_check.py](https://wangjialei.xyz/files/code/rw_strengthen_check.py)
+
 [《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf)
 
 [软件工程复习](https://wangjialei.xyz/files/pdf/se_review.pdf)
