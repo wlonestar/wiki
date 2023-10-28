@@ -32,10 +32,10 @@ Full stack
 
 ![](https://ghchart.rshah.org/wlonestar)
 
-
+<!-- 
 ## Presentations
 
-[基于GitHub和腾讯云的个人主页搭建](slides/personal_site)
+[基于GitHub和腾讯云的个人主页搭建](slides/personal_site) -->
 
 
 ## Files
@@ -50,7 +50,7 @@ Full stack
 
 [rw_strengthen_check.py](https://wangjialei.xyz/files/code/rw_strengthen_check.py)
 
-### PDF
+<!-- ### PDF
 
 [《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf)
 
@@ -58,6 +58,6 @@ Full stack
 
 [数据库系统原理复习](https://wangjialei.xyz/files/pdf/db_review.pdf)
 
-[计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf)
+[计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
 
 
