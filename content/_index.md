@@ -50,9 +50,9 @@ Full stack
 
 [rw_strengthen_check.py](https://wangjialei.xyz/files/code/rw_strengthen_check.py)
 
-<!-- ### PDF
+### PDF
 
-[《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf)
+<!-- [《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf)
 
 [软件工程复习](https://wangjialei.xyz/files/pdf/se_review.pdf)
 
@@ -60,4 +60,10 @@ Full stack
 
 [计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
 
+[408笔记-数据结构](https://wangjialei.xyz/files/pdf/dsa.pdf)
 
+[408笔记-计算机组成原理](https://wangjialei.xyz/files/pdf/composition.pdf)
+
+[408笔记-操作系统](https://wangjialei.xyz/files/pdf/os.pdf)
+
+[408笔记-计算机网络](https://wangjialei.xyz/files/pdf/network.pdf)
