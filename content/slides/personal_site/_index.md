@@ -4,8 +4,13 @@ title: 个人主页搭建及部署
 theme: gaia
 size: 16:9
 paginate: true
+_paginate: false
 backgroundColor: #fff
 _class: lead
+style: |
+  section {
+    font-size: 30px
+  }
 ---
 
 # 个人主页搭建及部署
@@ -53,9 +58,12 @@ _class: lead
 业内有名的个人网站
 - [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 - [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
+- ...
 
 我翻阅过的一些个人网站
 - [SAquariusの梦想屋](https://blog.songjiahao.com/)
+- [Hi, DIYgod](https://diygod.cc/)
+- ...
 
 还有我的博客网站
 - [lonestar's blog](https://blog.wangjialei.xyz/)
@@ -71,10 +79,6 @@ _class: lead
 ## “世界上最快的网站构建框架”
 
 > [Hugo](https://gohugo.io/) 是一个用 Go 编写的快速而现代的静态网站生成器，旨在让网站创建再次变得有趣。
-
-<!-- ![](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-12_08-33-51.jpg) -->
-
-<!-- <img alt class="center" width="250px" src=""/> -->
 
 特点：
 - 构建网站非常快速
@@ -101,7 +105,7 @@ hugo # 生成静态文件
 hugo new posts/<post_title>.md # 创建新文章
 ```
 
-- 我们提供了一个方便的 shell 脚本快速安装 [quick.sh](https://wangjialei.xyz/personal_site/quick.sh)
+我们提供了一个方便的 shell 脚本快速安装 [quick.sh](https://wangjialei.xyz/files/personal_site/quick.sh)
 
 ---
 
@@ -141,7 +145,6 @@ hugo new posts/<post_title>.md # 创建新文章
 - 提交更改，稍作等待即部署成功
   - 年轻人的的一个域名：`https://<gh_username>.github.io`
 - 对于较为复杂的任务，比如 Hugo 框架，生成静态文件才能部署
-  - GitHub Actions
 
 ---
 
@@ -174,7 +177,7 @@ hugo new posts/<post_title>.md # 创建新文章
 
 ## 一个自动化爬虫的例子
 
-项目地址：[wlonestar/HHU_URP_auto_login](https://github.com/wlonestar/HHU_URP_auto_login) 配置文件 [sendmail.yml](https://wangjialei.xyz/personal_site/sendmail.yml)
+项目地址：[wlonestar/HHU_URP_auto_login](https://github.com/wlonestar/HHU_URP_auto_login) 配置文件 [sendmail.yml](https://wangjialei.xyz/files/personal_site/sendmail.yml)
 - 每天 22:00 运行 py 脚本，从学校教务系统爬取信息
 - 使用HTML模板生成邮件，发送到指定的邮箱
 免去每次登录教务系统输入密码和验证码的麻烦，解放双手！
@@ -210,7 +213,7 @@ git push -u origin master
 
 - 等待部署，即可访问
 
-我们准备了一个方便的 [Makefile](https://wangjialei.xyz/personal_site/Makefile)
+我们准备了一个方便的 [Makefile](https://wangjialei.xyz/files/personal_site/Makefile)
 
 - 图片都存到仓库里吗？
 
@@ -235,22 +238,14 @@ git push -u origin master
 ## 花上一点小钱钱，用上对象存储服务
 
 [腾讯云对象存储COS](https://buy.cloud.tencent.com/cos)
-
-- 上传文件都得打开网页？
-
-使用图床工具 [PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)
-
+- 上传文件都得打开网页？使用图床工具 [PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)
 - 用于快速上传图片并获取图片 URL 链接的工具
-
   - 支持很多平台：腾讯云、阿里云、七牛图床等
-
 以腾讯云为例
-
 - 设置API访问密钥管理
-
 - 根据购买的对象存储服务设置存储区域和存储桶
 
-<img alt="" class="center" width="300px" src="https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-11_20-41-50.jpg">
+![width:300px](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-11_20-41-50.jpg)
 
 ---
 
@@ -260,7 +255,7 @@ git push -u origin master
 - 复制到文章中，提交更改，等待 GitHub 部署
 - 访问网站查看效果
 
-<img alt="" class="center" width="300px" src="https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-12_16-23-33.jpg"/>
+![width:300px](https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-04-12_16-23-33.jpg)
 
 ---
 
