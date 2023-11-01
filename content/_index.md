@@ -32,10 +32,10 @@ Full stack
 
 ![](https://ghchart.rshah.org/wlonestar)
 
-<!-- 
+
 ## Presentations
 
-[基于GitHub和腾讯云的个人主页搭建](slides/personal_site) -->
+[基于GitHub和腾讯云的个人主页搭建](slides/personal_site/index.html)
 
 
 ## Files
