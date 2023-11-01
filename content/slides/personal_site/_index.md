@@ -19,7 +19,7 @@ style: |
 
 ---
 
-## Overview
+## 概要
 
 分享主题：基于 GitHub Pages 和对象存储搭建高度可定制的个人主页
 
@@ -64,9 +64,6 @@ style: |
 - [SAquariusの梦想屋](https://blog.songjiahao.com/)
 - [Hi, DIYgod](https://diygod.cc/)
 - ...
-
-还有我的博客网站
-- [lonestar's blog](https://blog.wangjialei.xyz/)
 
 ---
 
@@ -285,4 +282,4 @@ git push -u origin master
 
 <!-- _class: lead -->
 
-# End.
+# 以上.
