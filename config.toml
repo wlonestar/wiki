@@ -1,7 +1,7 @@
 title = "LoneStar's wiki"
 baseURL = 'https://wangjailei.xyz/'
 languageCode = 'zh-cn'
-theme = ["hugo-blog-awesome", "reveal-hugo"]
+theme = ["hugo-blog-awesome"]
 defaultContentLanguage = "zh-cn"
 googleAnalytics = '' # G-MEASUREMENT_ID
 enableEmoji = true
@@ -70,15 +70,3 @@ url = "index.xml"
 startLevel = 2 # ToC starts from H2
 endLevel = 4 # ToC ends at H4
 ordered = false # generates <ul> instead of <ol>
-
-[outputFormats.Reveal]
-baseName = "index"
-mediaType = "text/html"
-isHTML = true
-
-[params.reveal_hugo]
-custom_theme = "stylesheets/custom.scss"
-custom_theme_compile = true
-highlight_theme = "github"
-slide_number = "c/t"
-history = true
