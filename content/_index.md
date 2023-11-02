@@ -35,7 +35,7 @@ Full stack
 
 ## Presentations
 
-[基于GitHub和腾讯云的个人主页搭建](slides/personal_site.html)
+[基于GitHub和腾讯云的个人主页搭建](slides/personal_site/_index.html)
 
 
 ## Files
