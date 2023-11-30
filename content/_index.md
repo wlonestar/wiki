@@ -42,9 +42,7 @@ Full stack
 
 ### PV操作
 
-[thread.h](https://wangjialei.xyz/files/code/thread.h)(copy from jyy)
-
-[thread-sync.h](https://wangjialei.xyz/files/code/thread-sync.h)(copy from jyy)
+[thread.h](https://wangjialei.xyz/files/code/thread.h)
 
 [rw_strengthen.c](https://wangjialei.xyz/files/code/rw_strengthen.c)
 
@@ -52,18 +50,12 @@ Full stack
 
 ### PDF
 
-<!-- [《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf)
+<!-- [《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf) -->
 
-[软件工程复习](https://wangjialei.xyz/files/pdf/se_review.pdf)
+<!-- [软件工程复习](https://wangjialei.xyz/files/pdf/se_review.pdf) -->
 
-[数据库系统原理复习](https://wangjialei.xyz/files/pdf/db_review.pdf)
+<!-- [数据库系统原理复习](https://wangjialei.xyz/files/pdf/db_review.pdf) -->
 
-[计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
+<!-- [计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
 
-[408笔记-数据结构](https://wangjialei.xyz/files/pdf/dsa.pdf)
-
-[408笔记-计算机组成原理](https://wangjialei.xyz/files/pdf/composition.pdf)
-
-[408笔记-操作系统](https://wangjialei.xyz/files/pdf/os.pdf)
-
-[408笔记-计算机网络](https://wangjialei.xyz/files/pdf/network.pdf)
+[408笔记](https://wangjialei.xyz/files/pdf/cs.pdf)
