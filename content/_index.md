@@ -58,7 +58,7 @@ Full stack
 
 <!-- [计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
 
-[201笔记](https://wangjialei.xyz/files/pdf/writing.pdf)
+[201笔记](https://wangjialei.xyz/files/pdf/template.pdf)
 
 [301笔记](https://wangjialei.xyz/files/pdf/math.pdf)
 
