@@ -4,9 +4,9 @@ title: "Home"
 
 ## wjl
 
-Undergraduate student, CS, College of Information Science and Engineering, Hohai University
+Undergraduate student, CS, College of Computer and Software, Hohai University
 
-Computer Systems
+Computer Systems, Compiler
 
 Full stack
 
@@ -21,7 +21,7 @@ Full stack
 
 ### 2022
 
-- [wlonestar/HHU_URP_auto_login](https://github.com/wlonestar/HHU_URP_auto_login): HHU URP auto login script
+- (**Outdated**) [wlonestar/HHU_URP_auto_login](https://github.com/wlonestar/HHU_URP_auto_login): HHU URP auto login script
 
 ### Closed
 
@@ -40,13 +40,13 @@ Full stack
 
 ## Files
 
-### PV操作
+<!-- ### PV操作
 
 [thread.h](https://wangjialei.xyz/files/code/thread.h)
 
 [rw_strengthen.c](https://wangjialei.xyz/files/code/rw_strengthen.c)
 
-[rw_strengthen_check.py](https://wangjialei.xyz/files/code/rw_strengthen_check.py)
+[rw_strengthen_check.py](https://wangjialei.xyz/files/code/rw_strengthen_check.py) -->
 
 ### PDF
 
@@ -58,8 +58,10 @@ Full stack
 
 <!-- [计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
 
-[201笔记](https://wangjialei.xyz/files/pdf/template.pdf)
 
-[301笔记](https://wangjialei.xyz/files/pdf/math.pdf)
 
-[408笔记](https://wangjialei.xyz/files/pdf/cs.pdf)
+<!-- [201](https://wangjialei.xyz/files/pdf/template.pdf) -->
+
+Some notes of the postgraduate entrance examination: 
+[301](https://wangjialei.xyz/files/pdf/math.pdf), 
+[408](https://wangjialei.xyz/files/pdf/cs.pdf)
