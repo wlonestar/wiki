@@ -13,19 +13,15 @@ Full stack
 
 ## Projects
 
-### 2023
+- [**toyc**](https://github.com/wlonestar/toyc): A Compiler Frontend for a C Language Subset
 
-- [wlonestar/cpp_stl](https://github.com/wlonestar/cpp_stl): tiny implementation of C++ STL
+- [**cpp_stl**](https://github.com/wlonestar/cpp_stl): tiny implementation of C++ STL
 
-- [wlonestar/simple-fts](https://github.com/wlonestar/simple-fts): simple full text search application
+- [**simple-fts**](https://github.com/wlonestar/simple-fts): simple full text search application
 
-### 2022
-
-- (**Outdated**) [wlonestar/HHU_URP_auto_login](https://github.com/wlonestar/HHU_URP_auto_login): HHU URP auto login script
-
-### Closed
-
-- wlonestar/lblog: personal blog written in Java, support markdown
+- (**Outdated**) [**HHU_URP_auto_login**](https://github.com/wlonestar/HHU_URP_auto_login): HHU URP auto login script
+ 
+- (**Closed**) **lblog**: personal blog written in Java, support markdown
 
 
 ## Contributions
@@ -40,27 +36,9 @@ Full stack
 
 ## Files
 
-<!-- ### PV操作
-
-[thread.h](https://wangjialei.xyz/files/code/thread.h)
-
-[rw_strengthen.c](https://wangjialei.xyz/files/code/rw_strengthen.c)
-
-[rw_strengthen_check.py](https://wangjialei.xyz/files/code/rw_strengthen_check.py) -->
+...
 
 ### PDF
-
-<!-- [《操作系统》书后习题答案](https://wangjialei.xyz/files/pdf/os_answer.pdf) -->
-
-<!-- [软件工程复习](https://wangjialei.xyz/files/pdf/se_review.pdf) -->
-
-<!-- [数据库系统原理复习](https://wangjialei.xyz/files/pdf/db_review.pdf) -->
-
-<!-- [计算机网络复习](https://wangjialei.xyz/files/pdf/network_review.pdf) -->
-
-
-
-<!-- [201](https://wangjialei.xyz/files/pdf/template.pdf) -->
 
 Some notes of the postgraduate entrance examination: 
 [301](https://wangjialei.xyz/files/pdf/math.pdf), 
