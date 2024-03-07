@@ -2,44 +2,48 @@
 title: "Home"
 ---
 
-## wjl
+## 个人介绍
+---
 
-Undergraduate student, CS, College of Computer and Software, Hohai University
+wjl 就读于河海大学计算机与软件学院，计算机科学与技术专业。我的感兴趣的方向涵盖计算机系统、编译器以及全栈开发。
 
-Computer Systems, Compiler
+- Github: [wlonestar](https://github.com/wlonestar)
 
-Full stack
+- Email: jialei.w@outlook.com
 
+- 演示视频：[bilibili主页](https://space.bilibili.com/433694656)
 
-## Projects
+## 项目列表
+---
 
-- [**toyc**](https://github.com/wlonestar/toyc): A Compiler Frontend for a C Language Subset
+- [**toyc**](https://github.com/wlonestar/toyc): 一个C语言子集的编译器前端。
 
-- [**cpp_stl**](https://github.com/wlonestar/cpp_stl): tiny implementation of C++ STL
+- [**cpp_stl**](https://github.com/wlonestar/cpp_stl): C++ STL 的简易实现。
 
-- [**simple-fts**](https://github.com/wlonestar/simple-fts): simple full text search application
+- [**simple-fts**](https://github.com/wlonestar/simple-fts): 简易全文搜索应用。
 
-- (**Outdated**) [**HHU_URP_auto_login**](https://github.com/wlonestar/HHU_URP_auto_login): HHU URP auto login script
+- (**Outdated**) [**HHU_URP_auto_login**](https://github.com/wlonestar/HHU_URP_auto_login): 河海大学 URP 自动登录脚本。
  
-- (**Closed**) **lblog**: personal blog written in Java, support markdown
+- (**Closed**) **lblog**: 使用 Java 编写的个人博客，支持 Markdown。
 
-
-## Contributions
+## Github 贡献
+---
 
 ![](https://ghchart.rshah.org/wlonestar)
 
-
-## Presentations
+## 演示
+---
 
 [基于GitHub和腾讯云的个人主页搭建](slides/personal_site/_index.html)
 
-
-## Files
+## 文件
+---
 
 ...
 
 ### PDF
+---
 
-Some notes of the postgraduate entrance examination: 
+考研部分笔记：
 [301](https://wangjialei.xyz/files/pdf/math.pdf), 
 [408](https://wangjialei.xyz/files/pdf/cs.pdf)
