@@ -2,11 +2,6 @@
 title: "SpringBoot多模块项目搭建、运行、打包"
 date: 2022-01-04T09:53:50+08:00
 description: 
-categories:
-- 过程记录
-tags:
-- Spring Boot
-- Maven
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/IMG20211018154346.jpg
 draft: false
 toc: true

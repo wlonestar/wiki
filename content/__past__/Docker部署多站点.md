@@ -2,11 +2,6 @@
 title: "Docker 部署多站点"
 date: 2021-10-03T14:44:48+08:00
 description: 服务器同一端口部署两个网站
-categories:
-- 过程记录
-tags:
-- Nginx
-- Docker
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/7e4afde0d80946dea5898e2dfa559b81.png
 draft: false
 toc: true

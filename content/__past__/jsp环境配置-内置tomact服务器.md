@@ -2,14 +2,6 @@
 title: Jsp环境配置-内置tomact服务器
 description:
 toc: true
-categories:
-- 过程记录
-tags:
-- Java
-- tomcat
-- jsp
-series:
-- 
 date: 2022-03-22T19:15:50+08:00
 lastmod: 2022-03-22T19:15:50+08:00
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2022-02-01_20-59-23.png

@@ -4,10 +4,6 @@ date: 2021-03-27T10:19:53+08:00
 draft: false
 toc: true
 description: 一篇极简的 LaTeX 介绍文章
-categories:
-- 日志随笔
-tags:
-- LaTeX
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/2021-03-27.jpg
 ---
 

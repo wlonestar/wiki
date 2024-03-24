@@ -3,11 +3,6 @@ title: "okito项目后续开发计划"
 description: okito 项目简单介绍及后续开发计划
 date: 2023-02-27T08:02:35+08:00
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/Snipaste_2023-02-27_10-28-29.jpg
-categories:
-  - 开源项目
-tags:
-  - Spring Boot
-  - React
 math: true
 hidden: false
 draft: false

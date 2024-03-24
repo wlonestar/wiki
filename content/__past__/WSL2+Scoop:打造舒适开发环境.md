@@ -3,11 +3,6 @@ title: "WSL2+Scoop:打造舒适开发环境"
 description: 我愿称之为直接起飞
 date: 2022-10-29T21:41:36+08:00
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/IMG20210624185947_BURST000_COVER.jpg
-categories:
-  - 知识整理
-tags:
-  - wsl2
-  - scoop
 math: true
 hidden: false
 draft: false

@@ -2,12 +2,6 @@
 title: "使用Docker部署SpringBoot+Vue项目"
 date: 2021-09-29T13:58:48+08:00
 description: 记录首次成功利用 Docker 部署项目的全过程
-categories:
-- 过程记录
-tags:
-- Docker
-- Spring Boot
-- Vue
 image: https://image-1305118058.cos.ap-nanjing.myqcloud.com/image/2021-09-29.jpg
 draft: false
 toc: true
