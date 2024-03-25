@@ -16,7 +16,7 @@ wjl 就读于河海大学计算机与软件学院，计算机科学与技术专�
 ## 项目列表
 ---
 
-- [**toyc**](https://github.com/wlonestar/toyc): 一个C语言子集的编译器前端。
+- [**toyc**](https://github.com/wlonestar/toyc): 一个C语言子集的编译器、解释器和交互式编程环境(REPL) 
 
 - [**cpp_stl**](https://github.com/wlonestar/cpp_stl): C++ STL 的简易实现。
 
