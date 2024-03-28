@@ -5,7 +5,7 @@ title: "Home"
 ## 个人介绍
 ---
 
-wjl 就读于河海大学计算机与软件学院，计算机科学与技术专业。我的感兴趣的方向涵盖计算机系统、编译器以及全栈开发。
+wjl 就读于河海大学计算机与软件学院，计算机科学与技术专业。我的感兴趣的方向涵盖软件测试分析
 
 - Github: [wlonestar](https://github.com/wlonestar)
 
@@ -16,15 +16,13 @@ wjl 就读于河海大学计算机与软件学院，计算机科学与技术专�
 ## 项目列表
 ---
 
-- [**toyc**](https://github.com/wlonestar/toyc): 一个C语言子集的编译器、解释器和交互式编程环境(REPL) 
+- [**Toyc-Kit**](https://github.com/wlonestar/Toyc-Kit): 一个C语言子集的编译器、解释器和交互式编程环境(REPL) 
 
-- [**cpp_stl**](https://github.com/wlonestar/cpp_stl): C++ STL 的简易实现。
-
-- [**simple-fts**](https://github.com/wlonestar/simple-fts): 简易全文搜索应用。
-
-- (**Outdated**) [**HHU_URP_auto_login**](https://github.com/wlonestar/HHU_URP_auto_login): 河海大学 URP 自动登录脚本。
+- (**Outdated**) [**AutomaEdu**](https://github.com/wlonestar/AutomaEdu): 教务系统自动化工具
  
-- (**Closed**) **lblog**: 使用 Java 编写的个人博客，支持 Markdown。
+- [**simple-fts**](https://github.com/wlonestar/simple-fts): 简易全文搜索应用
+
+- [**cpp_stl**](https://github.com/wlonestar/cpp_stl): C++ STL 的简易实现
 
 ## Github 贡献
 ---

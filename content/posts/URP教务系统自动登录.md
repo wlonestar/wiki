@@ -13,10 +13,11 @@ draft: false
 toc: true
 ---
 
+**本文章已过时**
 
 这篇博客是我对 hack 进学校教务系统的一个过程总结，详细代码已经放在GitHub上，需要的自取
 
-[URP教务系统自动登录脚本](https://github.com/wlonestar/HHU_URP_auto_login)
+[URP教务系统自动登录脚本](https://github.com/wlonestar/AutomaEdu)
 
 ## 验证码
 

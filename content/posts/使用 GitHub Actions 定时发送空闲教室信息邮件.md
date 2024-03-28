@@ -13,7 +13,9 @@ draft: false
 toc: true
 ---
 
-书接上回 -> [URP教务系统自动登录](https://blog.wangjialei.xyz/posts/urp%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95/)
+**本文章已过时**
+
+书接上回 -> [URP教务系统自动登录](https://wangjialei.xyz/posts/urp%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95/)
 
 > 基本想法完成了，但是，比较困扰我的一点是，查询到的数据该以什么样的方式存储起来，这一点可能还需要我好好想想，或许会写个接口来传输数据，然后写个App方便查询？还不太确定。
 
